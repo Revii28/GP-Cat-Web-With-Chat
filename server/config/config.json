@@ -1,0 +1,21 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "1234",
+    "database": "CatAdoption_Db_dev",
+    "host": "localhost",
+    "dialect": "postgres",
+    "logging": false
+  },
+  "test": {
+    "username": "postgres",
+    "password": "1234",
+    "database": "CatAdoption_Db_test",
+    "host": "localhost",
+    "dialect": "postgres",
+    "logging": false
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL"
+  }
+}
